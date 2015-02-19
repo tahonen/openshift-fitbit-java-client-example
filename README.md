@@ -1,5 +1,7 @@
 # Fitbit Java Client API OpenShift #
 
+Easy integrations to Fitbit. No server or application server installations needed. You need only OpenShift Online accoint, Fitbit Dev account, git client and text editor.
+
 **NOTE.** This OpenShift quick start project is based on [Fitbit's Java Client API example project] (https://github.com/Fitbit/fitbit4j). I only added stuff needed for OpenShift. For more info about Fitbit4J and Fitbit API check the original [Fitbit's Java Client API example project] (https://github.com/Fitbit/fitbit4j) and [wiki.fitbit.com](http://wiki.fitbit.com)
 
 **NOTE.** Fitbit4j client API cannot be found (at the time of writing this README) from any public Maven repo, so I included it as system scoped dependency from WEB-INF/lib dir. If you need to change Fitbit4j version, update file in WEB-INF/lib and make nessessary modifications to pom.xml
