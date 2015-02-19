@@ -43,7 +43,7 @@
 			<artifactId>fitbit4j</artifactId>
 			<version>1.0.26-SNAPSHOT</version>
 			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/lib/fitbit4j-1.0.26-SNAPSHOT.jar</systemPath>
+			<systemPath>${project.basedir}/src/main/webapp/WEB-INF/lib/fitbit4j-1.0.26-SNAPSHOT.jar</systemPath>
 		</dependency>
 		<!-- Spring -->
 		<dependency>
