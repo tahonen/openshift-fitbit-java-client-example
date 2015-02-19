@@ -39,7 +39,7 @@ public class FitbitApiAuthExampleServlet extends HttpServlet {
         super.init(config);
         try {
             Properties properties = new Properties();
-            properties.load(getClass().getClassLoader().getResourceAsStream("config.properties"));
+            properties.load(getClass().getClassLoader().getResourceAsStream("/config.properties"));
             apiBaseUrl = properties.getProperty("apiBaseUrl");
             fitbitSiteBaseUrl = properties.getProperty("fitbitSiteBaseUrl");
             exampleBaseUrl = properties.getProperty("exampleBaseUrl").replace("/app", "");
