@@ -1,6 +1,7 @@
 /target/
-target
-.settings/*
-!.settings/.jsdtscope
+.DS_Store
 .project
+.settings
 .classpath
+.project
+target/
